@@ -1,0 +1,13 @@
+dl.hutao.work {
+    encode gzip
+    tls fanghaizhou611@163.com
+    root * /home/fhz/Aria2Ng
+    file_server
+}
+
+blog.hutao.work {
+    encode gzip
+    tls fanghaizhou611@163.com
+    reverse_proxy 127.0.0.1:9005
+}
+
